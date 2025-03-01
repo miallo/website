@@ -15,7 +15,7 @@ use the actually useful parts of git which can bring a real benefit?
 _Definitely no!_ Do I even know 5% of what git can do? No, but I am willing to
 learn –- if you have an idea about a workflow/command that is interesting: let
 me know via Mastodon at
-[![Mastodon](https://img.shields.io/badge/Mstdn-MiAlLo-blue)](https://mstdn.social/@MiAlLo "Mastodon")
+{{< badge url="https://mstdn.social/@MiAlLo" label="mstdn.social" status="@MiAlLo" statusColor="#563ACC">}}
 
 
 But now for the first, maybe a bit obscure, tip related to the above: Did you

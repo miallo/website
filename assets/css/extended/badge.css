@@ -1,0 +1,17 @@
+.badge {
+    display: inline-flex;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    border-radius: 3px;
+    text-decoration: none;
+    padding-left: 8px;
+}
+
+.badge span {
+    padding: 2px 8px;
+    border-radius: 3px;
+    margin-left: 4px;
+}
