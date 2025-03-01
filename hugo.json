@@ -2,5 +2,6 @@
   "baseURL": "https://m-lohmann.org/",
   "languageCode": "en-us",
   "title": "nuggits - the stuff you never knew you wanted to know about git",
-  "theme": ["PaperMod"]
+  "theme": ["PaperMod"],
+  "params": { "social": { "fediverse_creator": "@MiAlLo@mstdn.social" } }
 }
