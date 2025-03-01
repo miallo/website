@@ -1,0 +1,10 @@
+<!--
+usage:
+    {< badge url="https://example.com" label="Build" status="Passing" labelColor="#555" statusColor="#4CAF50" >}}
+or
+    {< badge url="https://example.com" label="Coverage" status="90%" labelColor="#007ec6" statusColor="#ffcc00" >}}
+-->
+<a href="{{ .Get "url" }}" class="badge" style="background: {{ .Get "labelColor" | default "#555" }};">
+    {{ .Get "label" }}
+    <span style="background: {{ .Get "statusColor" | default "#4CAF50" }};">{{ .Get "status" }}</span>
+</a>
