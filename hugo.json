@@ -3,5 +3,6 @@
   "languageCode": "en-us",
   "title": "nuggits - the stuff you never knew you wanted to know about git",
   "theme": ["PaperMod"],
-  "params": { "social": { "fediverse_creator": "@MiAlLo@mstdn.social" } }
+  "params": { "social": { "fediverse_creator": "@MiAlLo@mstdn.social" } },
+  "outputs": { "home": ["HTML", "RSS", "JSON"] }
 }
