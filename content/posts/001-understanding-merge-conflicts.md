@@ -1,7 +1,9 @@
 ---
 {
    "date": "2025-03-02T00:27:02+01:00",
-   "title": "Understanding merge conflicts"
+   "title": "Understanding merge conflicts",
+   "tags": ["merge-conflict"],
+   "categories": ["Web Development"]
 }
 ---
 
