@@ -1,0 +1,4 @@
+{{ $author := index .Site.Data.authors (.Params.author | default "_default") }}
+{{- if $author -}}
+        <span class="meta_text">{{ $author.name }}</span>
+{{- end -}}
