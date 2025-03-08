@@ -1,9 +1,35 @@
 {
   "baseURL": "https://lohmann.sh/",
   "languageCode": "en-us",
-  "title": "nuggits - the stuff you never knew you wanted to know about git",
+  "title": "git init \"Michael\"",
   "theme": ["PaperMod"],
-  "params": { "social": { "fediverse_creator": "@MiAlLo@mstdn.social" } },
+  "params": {
+    "social": { "fediverse_creator": "@MiAlLo@mstdn.social" },
+    "homeInfoParams": {
+      "Title": "Hi there!",
+      "Content": "Welcome to this loosely coupled collection of ideas."
+    },
+    "profileMode": {
+      "enabled": true,
+      "title": "$HOME",
+      "subtitle": "Welcome to Michaels homepage",
+      "imageUrl": "/images/Header.webp",
+      "imageTitle": "A rock dassie accepts the existence of Michael",
+      "buttons": [
+        {
+          "name": "nuggits - git gold gists",
+          "url": "/nuggits"
+        }
+      ]
+    },
+    "socialIcons": [
+      { "name": "github", "url": "https://github.com/miallo" },
+      {
+        "name": "mastodon",
+        "url": "https://mstdn.social/@MiAlLo"
+      }
+    ]
+  },
   "taxonomies": {
     "category": "categories",
     "tag": "tags"

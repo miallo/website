@@ -114,9 +114,9 @@ warning first._
 ## How did I stumble across this?
 
 I started to create an interactive git tutorial that just uses git
-(https://github.com/miallo/nuggit). It only teaches you a single git
-instruction and when you execute this, you will get information about the next
-steps. In order to show this to the users when they do things like `git
-commit`, I started putting all the possible hooks in there and tried what
-happens. For `commit`, it was expected, but having a simple `status` execute
-commands felt a bit dangerous…
+([https://github.com/miallo/nuggit](https://github.com/miallo/nuggit)). It only
+teaches you a single git instruction and when you execute this, you will get
+information about the next steps. In order to show this to the users when they
+do things like `git commit`, I started putting all the possible hooks in there
+and tried what happens. For `commit`, it was expected, but having a simple
+`status` execute commands felt a bit dangerous…
