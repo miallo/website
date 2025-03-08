@@ -5,10 +5,8 @@
   "theme": ["PaperMod"],
   "params": {
     "social": { "fediverse_creator": "@MiAlLo@mstdn.social" },
-    "homeInfoParams": {
-      "Title": "Hi there!",
-      "Content": "Welcome to this loosely coupled collection of ideas."
-    },
+    "ShowBreadCrumbs": true,
+    "ShowCodeCopyButtons": true,
     "profileMode": {
       "enabled": true,
       "title": "$HOME",
@@ -23,6 +21,7 @@
       ]
     },
     "socialIcons": [
+      { "name": "email", "url": "mailto:me@lohmann.sh" },
       { "name": "github", "url": "https://github.com/miallo" },
       {
         "name": "mastodon",
