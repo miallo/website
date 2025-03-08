@@ -29,6 +29,22 @@
       }
     ]
   },
+  "menu": {
+    "main": [
+      {
+        "identifier": "nuggits",
+        "name": "nuggits",
+        "url": "/nuggits/",
+        "weight": 1
+      },
+      {
+        "identifier": "search",
+        "name": "🔍",
+        "url": "/search/",
+        "weight": 9
+      }
+    ]
+  },
   "taxonomies": {
     "category": "categories",
     "tag": "tags"
