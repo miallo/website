@@ -1,5 +1,5 @@
 <style>
-    /* from https://github.com/thisdev/hugo-gallery-shortcode/blob/3d59175524fff3b1b9cc877ea19ef0431ae3bf72/layouts/shortcodes/image-gallery.html */
+    /* adapted from https://github.com/thisdev/hugo-gallery-shortcode/blob/3d59175524fff3b1b9cc877ea19ef0431ae3bf72/layouts/shortcodes/image-gallery.html */
     /* Gallery Grid */
     .image-gallery {
         overflow: auto;
@@ -139,7 +139,6 @@
 </style>
 
 {{ $galleryDir := .Get 0 }}
-{{ $dir := printf "/%s%s" .Page.File.Dir $galleryDir }}
 <div class="simple-lightbox">
     <div class="lightbox-content">
         <img src="" alt="">
@@ -151,36 +150,18 @@
 </div>
 
 <ul class="image-gallery" id="image-gallery{{ $galleryDir }}">
-    {{ $files := readDir (print "content" $dir) }}
-    {{ $imageFiles := slice }}
-    {{ range $files }}
-    {{- $ext := path.Ext .Name -}}
-    {{- if in (slice ".jpg" ".jpeg" ".png" ".gif" ".webp") $ext -}}
-    {{ $imageFiles = $imageFiles | append . }}
-    {{ end }}
-    {{ end }}
-
-    {{ if and (ge (len $imageFiles) 2) (le (len $imageFiles) 5) }}
-    {{ range $imageFiles }}
-    {{- $imagetitle_dirty := replaceRE "\\.[^.]+$" "" .Name -}}
-    {{- $imagetitle := replaceRE "^\\d " "" $imagetitle_dirty -}}
-    {{- $imageurl := printf "%s/%s" $dir .Name
-                       | replaceRE "ü" "%C3%BC"
-                       | replaceRE "Ü" "%C3%9C"
-                       | replaceRE "ö" "%C3%B6"
-                       | replaceRE "Ö" "%C3%96"
-                       | replaceRE "ä" "%C3%A4"
-                       | replaceRE "Ä" "%C3%84"
-                       | replaceRE "\\?" "%3F"
-                       | replaceRE "&" "%26" -}}
+  {{ $dir := printf "%s/*" $galleryDir }}
+  {{ $images := .Page.Resources.Match $dir }}
+  {{ range $images }}
+  {{ $imagetitle := .Name | path.Base | strings.TrimSuffix (path.Ext .Name) | replaceRE "^\\d " "" }}
+    {{ $webp := .Process "webp q92" }}
     <li>
-        <a href="{{ $imageurl }}" title="{{ $imagetitle }}" class="gallery-image"
-            data-caption="{{ $imagetitle }}">
-            <img src="{{ $imageurl }}" alt="{{ $imagetitle }}" title="{{ $imagetitle }}">
-            <span>{{ $imagetitle }}</span>
-        </a>
+      <a href="{{ $webp.RelPermalink }}" title="{{ $imagetitle }}" class="gallery-image"
+          data-caption="{{ $imagetitle }}">
+        <img src="{{ $webp.RelPermalink }}" alt="{{ $imagetitle }}" title="{{ $imagetitle }}">
+        <span>{{ $imagetitle }}</span>
+      </a>
     </li>
-    {{ end }}
     {{ end }}
 </ul>
 
