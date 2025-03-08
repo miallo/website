@@ -164,7 +164,15 @@
     {{ range $imageFiles }}
     {{- $imagetitle_dirty := replaceRE "\\.[^.]+$" "" .Name -}}
     {{- $imagetitle := replaceRE "^\\d " "" $imagetitle_dirty -}}
-    {{- $imageurl := printf "%s/%s" $dir .Name  | replaceRE "\\?" "%3F" | replaceRE "&" "%26" -}}
+    {{- $imageurl := printf "%s/%s" $dir .Name
+                       | replaceRE "ü" "%C3%BC"
+                       | replaceRE "Ü" "%C3%9C"
+                       | replaceRE "ö" "%C3%B6"
+                       | replaceRE "Ö" "%C3%96"
+                       | replaceRE "ä" "%C3%A4"
+                       | replaceRE "Ä" "%C3%84"
+                       | replaceRE "\\?" "%3F"
+                       | replaceRE "&" "%26" -}}
     <li>
         <a href="{{ $imageurl }}" title="{{ $imagetitle }}" class="gallery-image"
             data-caption="{{ $imagetitle }}">
