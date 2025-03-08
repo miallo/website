@@ -5,6 +5,7 @@
   "theme": ["PaperMod"],
   "params": {
     "social": { "fediverse_creator": "@MiAlLo@mstdn.social" },
+    "mainSections": ["nuggits", "travel"],
     "ShowBreadCrumbs": true,
     "ShowCodeCopyButtons": true,
     "ShowReadingTime": true,
@@ -18,7 +19,8 @@
         {
           "name": "nuggits - git gold gists",
           "url": "/nuggits"
-        }
+        },
+        { "name": "Südafrika Reise", "url": "/travel/2024/suedafrika/" }
       ]
     },
     "socialIcons": [
@@ -37,6 +39,11 @@
         "name": "nuggits",
         "url": "/nuggits/",
         "weight": 1
+      }, {
+        "identifier": "reisen",
+        "name": "Reisen",
+        "url": "/travel/2024/suedafrika/",
+        "weight": 2
       },
       {
         "identifier": "search",
