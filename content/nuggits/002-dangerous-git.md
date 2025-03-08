@@ -7,6 +7,10 @@
 }
 ---
 
+> _Disclaimer:_ Don't understand me wrong: git is amazing and can do lots of _very_ nice
+things. I really like it. Well… Most of it. The safety aspect of some of its
+features on the other hand is a bit iffy…
+
 Git can automate lots of things and run code for you on many of the actions.
 That can be very useful to automate e.g. for automatically formatting code
 before commiting. But if it executed code automatically - could a malicious
@@ -14,8 +18,9 @@ actor use it for attacking you? 🤔
 
 ## TL;DR
 
-Executing any git command (either by you, or your tools) in folders you did not
-create yourself can be a dangerous!
+Executing any git command (either by you, or the git integration of any of your
+tools) in folders you did not create yourself can lead to code execution that
+you probably didn't expect.
 
 ## Proof of concept
 
