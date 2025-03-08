@@ -1,7 +1,7 @@
 ---
 {
   "title": "Search",
-  "placeholder": "Search nuggits…",
+  "placeholder": "Search…",
   "layout": "search"
 }
 ---
