@@ -153,7 +153,15 @@
   {{ $dir := printf "%s/*" $galleryDir }}
   {{ $images := .Page.Resources.Match $dir }}
   {{ range $images }}
-  {{ $imagetitle := .Name | path.Base | strings.TrimSuffix (path.Ext .Name) | replaceRE "^\\d " "" }}
+  {{ $imagetitle := .Name | path.Base
+      | strings.TrimSuffix (path.Ext .Name)
+      | replaceRE "^\\d " ""
+      | replaceRE "\\\\oe" "ö"
+      | replaceRE "\\\\ae" "ä"
+      | replaceRE "\\\\ue" "ü"
+      | replaceRE "\\\\OE" "Ö"
+      | replaceRE "\\\\AE" "Ä"
+      | replaceRE "\\\\UE" "Ü" }}
     {{ $webp := .Process "webp q92" }}
     <li>
       <a href="{{ $webp.RelPermalink }}" title="{{ $imagetitle }}" class="gallery-image"
