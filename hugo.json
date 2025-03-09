@@ -48,6 +48,12 @@
         "weight": 2
       },
       {
+        "identifier": "about",
+        "name": "Über & Datenschutz",
+        "url": "about",
+        "weight": 8
+      },
+      {
         "identifier": "search",
         "name": "🔍",
         "url": "/search/",
