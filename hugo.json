@@ -40,7 +40,8 @@
         "name": "nuggits",
         "url": "/nuggits/",
         "weight": 1
-      }, {
+      },
+      {
         "identifier": "reisen",
         "name": "Reisen",
         "url": "/travel/2024/suedafrika/",
