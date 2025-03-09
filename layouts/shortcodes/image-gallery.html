@@ -147,6 +147,8 @@
   {{ $imagetitle := .Name | path.Base
       | strings.TrimSuffix (path.Ext .Name)
       | replaceRE "^\\d " ""
+      | replaceRE "\\\\exc" "!"
+      | replaceRE "\\\\qu" "?"
       | replaceRE "\\\\oe" "ö"
       | replaceRE "\\\\ae" "ä"
       | replaceRE "\\\\ue" "ü"
