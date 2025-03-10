@@ -12,8 +12,6 @@
     .image-gallery li {
         flex: 1 1 calc(25% - 1%); /* Default: 4 per row */
         width: calc(25% - 1%);
-        display: block;
-        flex-grow: 1 important;
     }
     /* Responsive behavior */
     @media (max-width: 900px) { /* Adjust for tablets */
@@ -53,6 +51,19 @@
     }
     .image-gallery li a:hover img {
         transform: scale(1.01);
+    }
+    /* Allow items to grow when fewer are present */
+    .image-gallery:has(li:nth-child(1):nth-last-child(1)) li {
+        flex: 1 1 100%;
+        max-width: 100%;
+    }
+    .image-gallery:has(li:nth-child(1):nth-last-child(2)) li {
+        flex: 1 1 calc(50% - 1%);
+        max-width: calc(50% - 1%);
+    }
+    .image-gallery:has(li:nth-child(1):nth-last-child(3)) li {
+        flex: 1 1 calc(33.333% - 1%);
+        max-width: calc(33.333% - 1%);
     }
 
     /* Simple Lightbox */
