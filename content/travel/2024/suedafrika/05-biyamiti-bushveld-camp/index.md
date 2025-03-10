@@ -30,6 +30,8 @@ vorne ein Leopard in Richtung unserer Autos entgegen. Im hinteren Auto sieht
 Kirsten ihn sofort. Die Raubkatze setzt nach kurzem Beobachten des Elefanten
 ihren Weg ins Dickicht fort.
 
+{{< video "./Leopard.mp4" >}}
+
 {{< image-gallery "gallery-1" >}}
 
 Etwas später führt uns die enge Schotterpiste wieder einmal nah an Elefanten
