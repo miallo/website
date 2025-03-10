@@ -5,16 +5,14 @@
         display: flex;
         flex-wrap: wrap;
         gap: 1%;
-        margin-left: 0;
-        padding: 0;
         list-style: none;
+        padding-inline-start: 0 !important;
     }
 
     .image-gallery li {
         flex: 1 1 calc(25% - 1%); /* Default: 4 per row */
         width: calc(25% - 1%);
         display: block;
-        margin: 0;
         flex-grow: 1 important;
     }
     /* Responsive behavior */
@@ -67,6 +65,7 @@
         width: 100%;
         height: 100%;
         background: rgba(0, 0, 0, 0.9);
+        color: white;
     }
 
     .simple-lightbox.active {
@@ -92,7 +91,6 @@
         bottom: -60px;
         left: 0;
         right: 0;
-        color: white;
         text-align: center;
         padding: 10px;
     }
@@ -101,7 +99,6 @@
         position: absolute;
         top: 20px;
         right: 20px;
-        color: white;
         font-size: 30px;
         cursor: pointer;
         width: 30px;
@@ -114,7 +111,6 @@
         position: absolute;
         top: 50%;
         transform: translateY(-50%);
-        color: white;
         font-size: 30px;
         cursor: pointer;
         padding: 20px;
