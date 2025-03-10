@@ -55,3 +55,6 @@ haben: Wildhunde - Fast ein Dutzend der nur 300 Stück des Parks trollten sich
 über unseren abendlichen Weg!
 
 {{< image-gallery "gallery-4" >}}
+
+Die Wildhunde haben sich auf jeden Fall gut die Zeit vertrieben ^^
+{{< video "./Wildhunde.mp4" >}}
