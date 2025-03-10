@@ -8,6 +8,8 @@
 }
 ---
 
+{{< video "./SunriseSkukuza.mp4" >}}
+
 Wir schlafen aus. Michi, Kirsten und Jannis fahren morgens schon eine gute
 Stunde durch den Park und beobachten u.a. einen Löwen.
 
