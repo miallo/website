@@ -25,6 +25,8 @@ und später noch einen direkt in ca. 40m. Es ist schwer zu beschreiben, wie gro�
 und majestätisch diese Tiere sind, gleichzeitig ist es schon ein wenig
 irritierend, dass sie so schlecht sehen können, dass sie uns nicht bemerkt hat.
 
+{{< video "./ElefantenGanzNah.mp4" >}}
+
 Zur Frühstückspause gibt es eine Herde Gnus zu begutachten.
 
 {{< image-gallery "gallery-1" >}}
