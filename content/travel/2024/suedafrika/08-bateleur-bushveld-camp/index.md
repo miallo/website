@@ -17,3 +17,7 @@ dennoch beeindruckend!
 liebe sie diese trolligen gnubbelig-spitzen Weggefährten…!
 
 {{< image-gallery "gallery-1" >}}
+
+Waterbucks wissen genau, vor wem sie sich in Acht nehmen müssen und wie dicht sie gefahrlos an die Krokokile heran dürfen:
+
+{{< video "./WaterbucksMeetCroc.mp4" >}}
