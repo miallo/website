@@ -119,4 +119,6 @@ Ranger bis 4 Uhr früh wach, da sie über Stunden nicht weiterziehen wollte und
 das erstes Gebot die Sicherheit ihrer Gäste ist. Wir sollten jedoch ruhigere
 Nächte haben (leider [Anmerkung von Michael])
 
+{{< video "./Zeltaufbau.mp4" >}}
+
 {{< image-gallery "gallery-4" >}}
