@@ -71,6 +71,8 @@ bis jetzt begegnet sind.
 
 {{< image-gallery "gallery-3" >}}
 
+{{< video "./nashorns.mp4" >}}
+
 Nach dem Weiterfahren dauerte es nicht lange und wir biegen um eine Linkskurve.
 Uns kommt ein einsames Löwenmännchen die Straße entgegengelaufen. Er folgt
 einer Fährte: Simon meint entweder ist es die Fährte eines rivalisierenden
