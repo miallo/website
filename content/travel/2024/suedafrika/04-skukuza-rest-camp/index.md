@@ -36,6 +36,13 @@ komplett, aber wenn man zu Fuß unterwegs ist, sind sie wesentlich vorsichtiger.
 Der Grund? Von den Autos haben sie gelernt, dass die nichts tun, aber von
 Menschen zu Fuß wurden sie Jahrtausende gejagt.
 
+Wo Giraffen einen zu Fuß schon aus 100m argwönisch beäugen, sind sie bei Autos
+meist deutlich gelassener. Aber auch da können sie sich erschrecken - und wenn
+sie laufen, dann sieht es echt faszinierend aus, weil es durch ihre Größe wie
+in Zeitlupe aussieht, sie aber in Realität doch recht flott sind xD
+
+{{< video "./GiraffenTrab.mp4" >}}
+
 Nach der Wanderung gibt es dann erstmal ein paar letzte organisatorische Dinge
 zu klären. Neben unserem Zelt gibt es diverse Mangusten (so ähnlich wie
 Erdmännchen, aber flink genug, dass sie Kobras töten können) - soooo süß die
