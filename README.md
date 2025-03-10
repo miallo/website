@@ -10,6 +10,8 @@ Stack:
 
 ## develop
 
+For cloning, you need to have `git lfs`. For further information see: https://git-lfs.com
+
 Run `hugo server --buildDrafts` and then open http://localhost:1313 for a live preview.
 
 Execute `./publish` for building the site and syncing it to the server (you obviously need credentials for that which you (hopefully) don't have if you are not me)
