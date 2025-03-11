@@ -1,3 +1,7 @@
+Because of Githubs size&bandwidth restrictions (which are especially strict for LFS) the code is now tracked in a bare repo on my server (so unfortunately no public access to further changes any more…)
+
+And yes: adding big pictures and especially videos to git might not be a very smart idea, but since these files will most likely not be touched again once added, it should not be that much of an issue ;)
+
 # My private blog
 
 Stack:
